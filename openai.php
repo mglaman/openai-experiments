@@ -8,5 +8,6 @@ $application = new Application();
 $application->addCommands([
   new \App\Commands\PatchSummary(),
   new \App\Commands\IssueSummary(),
+  new \App\Commands\ChangesSummary(),
 ]);
 $application->run();
